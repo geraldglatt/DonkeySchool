@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="image/png" href="sources/images/index.png"/>
+        <link rel="shortcut icon" type="image/png" href="sources/images/hand.png"/>
         <meta name="keywords" content="portfolio">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="description" content="Portfolio">
@@ -11,26 +11,27 @@
         <meta name="author" content="gerald glatt"/>
         <meta name="copyright" content="&copy; Glatt Gérald 2022"/>
         <meta name="date" content="2022-01-13"/>
+        <link rel="stylesheet" href="styles.css">
     <title>My first Donkey's website</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="li">
             <ul>
-                <li><a href="#">Gerald glatt</a></li>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Présentation</a></li>
-                <li><a href="#">Mon CV</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Compétences</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="li"><a href="#">Gerald glatt</a></li>
+                <li class="li"><a href="#">Accueil</a></li>
+                <li class="li"><a href="#">Présentation</a></li>
+                <li class="li"><a href="#">Mon CV</a></li>
+                <li class="li"><a href="#">Portfolio</a></li>
+                <li class="li"><a href="#">Compétences</a></li>
+                <li class="li"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="section1">
             <div class="carousel">
-                <img src="" title="images Site portfolio" alt="images portfolio"></a>
+                <img src="sources/images/convivialeventbbq.png" title="images Site portfolio" alt="images portfolio"></a>
             </div>
             <div>
                 <button><a class="bouton" href="sources/pdf/CV.pdf" download="CV-gerald glatt">Télécharger mon CV</a></button>
@@ -52,50 +53,55 @@
             <div>
                 <div>
                     <h3>site 1</h3>
-                    <img src="" title="images site 1" alt="Site 1"></a>
-                </div>
+                    <div class="hover">
+                        <img src="sources/images/refonteSite2.png" title="images site 1" alt="Site 1">
+                    </div>
                 <button>En savoir plus</button>
                 <div>
                     <h3>site 2</h3>
-                    <img src="" title="images site 2" alt="Site 2"></a>
+                    <div class="hover">
+                        <img src="sources/images/ludo_renov.png" title="images site 2" alt="Site 2">
+                    </div>
                 </div>
                 <button>En savoir plus</button>
                 <div>
                     <h3>site 3</h3>
-                    <img src="" title="images site 3" alt="Site 3"></a>
+                    <div class="hover">
+                        <img src="sources/images/convivialeventbbq.png" title="images site 3" alt="Site 3">
+                    </div>
                 </div>
                 <button>En savoir plus</button>
             </div>
         </section>
         <section class="section4">
             <div class="container">
-                <h2>Compétances utilisées pour chaque site</h2>
+                <h2>Compétences utilisées pour chaque site</h2>
                 <hr>
                 <div>
-                    <img src="" title="logo technologie Site 1" alt="logo Site 1"></a>
+                    <img src="sources/images/html-5.png" title="logo technologie Site 1" alt="logo Site 1"></a>
                     <h3>Site 1</h3>
                     <ul>
-                        <li>Technos utilisés pour ce site :</li>
+                        <li>Technos utilisées pour ce site :</li>
                         <li>HTML/CSS3</li>
                         <li>PHP/JAVASCRIPT</li>
                         <li>PDO/MYSQL</li>
                     </ul>
                 </div>
                 <div>
-                    <img src="" title="logo technologie Site 1" alt="logo Site 2"></a>
+                    <img src="sources/images/php-logo.png" title="logo technologie Site 1" alt="logo Site 2"></a>
                     <h3>Site 2</h3>
                     <ul>
-                        <li>Technos utilisés pour ce site :</li>
+                        <li>Technos utilisées pour ce site :</li>
                         <li>HTML/CSS3</li>
                         <li>PHP/JAVASCRIPT</li>
                         <li>PDO/MYSQL</li>
                     </ul>
                 </div>
                 <div>
-                    <img src="" title="logo technologie Site 1" alt="logo Site 3"></a>
+                    <img src="sources/images/angular.png" title="logo technologie Site 1" alt="logo Site 3"></a>
                     <h3>Site 3</h3>
                     <ul>
-                        <li>Technos utilisés pour ce site :</li>
+                        <li>Technos utilisées pour ce site :</li>
                         <li>HTML/CSS3</li>
                         <li>PHP/JAVASCRIPT</li>
                         <li>PDO/MYSQL</li>
@@ -104,7 +110,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <div>@copyright : gérald glatt</div>
     </footer>
 </body>

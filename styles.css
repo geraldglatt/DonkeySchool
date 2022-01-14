@@ -1,0 +1,42 @@
+body{
+    font-family: 'Fredoka One', cursive;
+    /* height: 200vh;
+    background: linear-gradient(rgb(14, 54, 97), purple); */
+    background-image: url(sources/images/background.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-decoration-skip: drop-shadow;
+    filter: drop-shadow(0 0 0.75rem rgb(155, 223, 124));
+}
+img:hover{
+    background-color: gold;
+    
+        
+}
+img{
+    max-width:200px;
+    max-height:200px;
+    border-radius: 3px;
+}
+.hover:hover{
+    background-color: gold;
+}
+.li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 50px;
+    margin-left: 100px 0 0 0 ;
+    height: 100px;
+    text-align: right;
+    
+}
+.section1 div:first-child{
+    filter: grayscale(100%) !important;
+}
+
+.footer{
+    background-color:black ;
+    
+}
