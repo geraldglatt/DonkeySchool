@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Fredoka One', cursive;
     /* height: 200vh;
@@ -11,9 +12,7 @@ body{
     filter: drop-shadow(0 0 0.75rem rgb(155, 223, 124));
 }
 img:hover{
-    background-color: gold;
-    
-        
+    background-color: gold;       
 }
 img{
     max-width:200px;
@@ -28,15 +27,97 @@ img{
     list-style-type: none;
     padding: 50px;
     margin-left: 100px 0 0 0 ;
-    height: 100px;
-    text-align: right;
-    
+    text-align: right; 
+    font-size: large;
+     
+}
+ul li a{
+    color: black !important;
+    line-height: 2em;
+}
+.section1{
+position: absolute;
+right: 15%;
+top: 180px;
+left: 15%;
+z-index: 10;
+padding-top: 20px;
+color: #fff;
+text-align: center;
 }
 .section1 div:first-child{
     filter: grayscale(100%) !important;
 }
+.section2{
+    padding-top: 200px;
+    text-align: center;
+   
+}
+.monportfolio{
+    text-align: center;
+}
+.box1{ 
+    display: flex;
+    text-align: center;   
+}
+.site1{
+    flex: 1 1 auto;
+}
+.site2{
+    flex: 1 1 auto;
+}
+.site3{
+    flex: 1 1 auto;
+}
+.box2{
+    display: flex;
+    text-align: center;
+      
+}
+.photo1{
+    flex: 1 1 auto;
+    margin:auto;
+}
+.photo2{
+    flex: 1 1 auto;
+    margin:auto;
+}
+.photo3{
+    flex: 1 1 auto;
+    margin:auto;
+}
+.box3{
+    display: flex;
+    text-align: center;
+}
+.text1{
+    flex: 1 1 auto;
+    margin:auto;
+    margin-top: 15px;
+    max-width: 150px;
+}
+.text2{
+    flex: 1 1 auto;
+    margin:auto;
+    max-width: 150px;
+    margin-top: 15px;
+}
+.text3{
+    flex: 1 1 auto;
+    margin:auto;
+    max-width: 150px;
+    margin-top: 15px;
+}
+.section4{
+    top:600pxpx;
+    text-align: center;
+    
+}
+
 
 .footer{
     background-color:black ;
+    color: blanchedalmond;
+    text-align: center;
     
 }
