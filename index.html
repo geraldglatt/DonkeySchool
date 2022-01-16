@@ -18,16 +18,18 @@
 </head>
 <body>
     <header>
-        <nav class="li">
-            <ul>
-                <li class="li"><a href="#">Gerald glatt</a></li>
-                <li class="li"><a href="#">Accueil</a></li>
-                <li class="li"><a href="#">Présentation</a></li>
-                <li class="li"><a href="#">Mon CV</a></li>
-                <li class="li"><a href="#">Portfolio</a></li>
-                <li class="li"><a href="#">Compétences</a></li>
-                <li class="li"><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav>
+            <label for="toggle" class="label">☰</label>
+            <input type="checkbox" id="toggle">
+            <div class="nav">
+                    <a href="#">Gerald glatt</a>
+                    <a href="#">Accueil</a>
+                    <a href="#">Présentation</a>
+                    <a href="#">Mon CV</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Compétences</a>
+                    <a href="contact.html">Contact</a>
+            </div>
         </nav>
     </header>
     <main>
@@ -36,80 +38,96 @@
                 <img src="sources/images/convivialeventbbq.png" title="images Site portfolio" alt="images portfolio"></a>
             </div>
             <div>
-                <button><a class="bouton" href="sources/pdf/CV.pdf" download="CV-gerald glatt">Télécharger mon CV</a></button>
-                
+                <button  class="bouton"><a href="sources/pdf/CV.pdf" download="CV-gerald glatt">Télécharger mon CV</a></button>    
             </div>
         </section>
         <section class="section2">
-            <div>
+            <div class="section2_titreH2">
                 <h2>Gérald : Développeur intégrateur web junior</h2>
             </div>
-            <div>
-                <h3>Mes compétences</h3><span>Intéraction Javascript : HTML/CSS PHP/POO/MVC/SYMFONY JAVASCRIPT/NODE jS etc....</span>
+            <div class="section2_titreh3">
+                <h3>Mes compétences</h3>
             </div>
+                <div ="section2_img">
+                    <img class="section2_img1" src="sources/images/html-5.png" title="logo technologie Site 1" alt="logo Site 1">
+                    <img class="section2_img2" src="sources/images/php-logo.png" title="logo technologie Site 1" alt="logo Site 2">
+                    <img class="section2_img3" src="sources/images/angular.png" title="logo technologie Site 1" alt="logo Site 3">
+                    <img class="section2_img4" src="sources/images/javascript.png" title="logo technologie Site 1" alt="logo Site 3">
+                    <img class="section2_img5" src="sources/images/symfony.png" title="logo technologie Site 1" alt="logo Site 3">
+                    <img class="section2_img6" src="sources/images/wordpress.png" title="logo technologie Site 1" alt="logo Site 3">
+                    <img class="section2_img7" src="sources/images/css3.png" title="logo technologie Site 1" alt="logo Site 3">
+
+                </div>
         </section>
         <section class="section3">
-            <div class="monportfolio">
+            <div class="section3_monportfolio">
                 <h2>Mon Portfolio</h2>
             </div>
-            <div class="row">
-                <div class="box1">
-                    <h3 class="site1">site 1</h3>
-                    <h3 class="site2">site 2</h3>
-                    <h3 class="site3">site 3</h3>
+            <div class="section3_row">
+                <div class="section3_box1">
+                    <h3 class="section3_site1">site 1</h3>
+                    <h3 class="section3_site2">site 2</h3>
+                    <h3 class="section3_site3">site 3</h3>
                 </div>
-                <div class="box2">
-                    <img class="photo1" src="sources/images/refonteSite2.png" title="images site 1" alt="Site 1">
-                    <img class="photo2" src="sources/images/ludo_renov.png" title="images site 2" alt="Site 2">
-                    <img class="photo3" src="sources/images/convivialeventbbq.png" title="images site 3" alt="Site 3">
+                <div class="section3_box2">
+                    <img class="section3_photo1" src="sources/images/refonteSite2.png" title="images site 1" alt="Site 1">
+                    <img class="section3_photo2" src="sources/images/ludo_renov.png" title="images site 2" alt="Site 2">
+                    <img class="section3_photo3" src="sources/images/convivialeventbbq.png" title="images site 3" alt="Site 3">
                 </div>
                 
-                <div class="box3">
-                    <button class="text1">En savoir plus</button>
-                    <button class="text2">En savoir plus</button>
-                    <button class="text3">En savoir plus</button>
+                <div class="section3_box3">
+                    <button class="section3_text1">Clicker ici</button>
+                    <button class="section3_text2">Clicker ici</button>
+                    <button class="section3_text3">Clicker ici</button>
                 </div>   
             </div>
         </section>
         <section class="section4">
-            <div class="container">
-                <h2>Compétences utilisées pour chaque site</h2>
+            <div class="section4_container">
+                <div class="section4_competences">
+                    <h2>Compétences utilisées pour chaque site</h2>
+                </div>
                 <hr>
-                <div>
-                    <img src="sources/images/html-5.png" title="logo technologie Site 1" alt="logo Site 1"></a>
-                    <h3>Site 1</h3>
-                    <ul>
-                        <li>Technos utilisées pour ce site :</li>
-                        <li>HTML/CSS3</li>
-                        <li>PHP/JAVASCRIPT</li>
-                        <li>PDO/MYSQL</li>
-                    </ul>
+                <div class="section4_site">
+                    <h3 class="section4_site1">Site 1</h3>
+                    <h3 class="section4_site2">Site 2</h3>
+                    <h3 class="section4_site2">Site 3</h3>
                 </div>
-                <div>
-                    <img src="sources/images/php-logo.png" title="logo technologie Site 1" alt="logo Site 2"></a>
-                    <h3>Site 2</h3>
-                    <ul>
-                        <li>Technos utilisées pour ce site :</li>
-                        <li>HTML/CSS3</li>
-                        <li>PHP/JAVASCRIPT</li>
-                        <li>PDO/MYSQL</li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="sources/images/angular.png" title="logo technologie Site 1" alt="logo Site 3"></a>
-                    <h3>Site 3</h3>
-                    <ul>
-                        <li>Technos utilisées pour ce site :</li>
-                        <li>HTML/CSS3</li>
-                        <li>PHP/JAVASCRIPT</li>
-                        <li>PDO/MYSQL</li>
-                    </ul>
+                <div class="section4_technos">
+                    <div class="section4_div1">
+                        <ul class="section4_technos_ul_li1">
+                            <li class="section4_text1">Technos utilisées pour ce site :</li>
+                            <li class="section4_text2">Technos utilisées pour ce site :</li>
+                            <li class="section4_text3">Technos utilisées pour ce site :</li>
+                        </ul>
+                    </div>
+                    <div class="section4_div2">
+                        <ul class="section4_technos_ul_li2">   
+                            <li class="section4_techno1_li">HTML/CSS3</li>
+                            <li class="section4_techno2_li">HTML/CSS3</li>
+                            <li class="section4_techno3_li">HTML/CSS3</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="section4_technos_ul_li3">
+                            <li class="section4_techno4_li">PHP/JAVASCRIPT</li>
+                            <li class="section4_techno5_li">PHP/JAVASCRIPT</li>
+                            <li class="section4_techno6_li">PHP/JAVASCRIPT</li>   
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="section4_technos_ul_li4">
+                            <li class="section4_techno7_li">PDO/MYSQL</li>
+                            <li class="section4_techno8_li">PDO/MYSQL</li>
+                            <li class="section4_techno9_li">PDO/MYSQL</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <div>@copyright : gérald glatt</div>
+        <div>&copy; gérald glatt</div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
